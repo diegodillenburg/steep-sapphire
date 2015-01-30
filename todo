@@ -1,0 +1,27 @@
+- create file
+    - file vaccinations
+    - file pets
+- open file
+- insert struct in file
+    - file vaccinations
+        - insert at blank space
+        - insert at EOF
+        - insert in vaccinations if pet_id exists in pets' file
+            - else record new pet then insert in vaccinations
+    - file pets
+        - insert at blank space
+        - insert at EOF
+- edit struct in file
+    - file vaccinations
+    - file pets
+        - if new_struct > old_struct
+            - remove old_struct from file, i.e. mark as innactive (!)
+            - insert at EOF
+- remove vaccination
+    - vaccination.id
+        - search in file
+        - remove directly in file
+- linked list through innactive records
+    - head record with offset to first innactive record
+* - active record
+! - innactive record

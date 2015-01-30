@@ -3,15 +3,15 @@
 #include <stdlib.h>
 
 struct structVaccination {
-	int	id,
-		dog_id;
+	int	id,		// primary key for indexing records
+		pet_id;
 	char *name,
 		 *date,
 		 *responsible;
 };
 
 struct structPet {
-	int id;
+	int id;		// primary key for indexing records
 	char *breed,
 		 *name;
 };
@@ -22,7 +22,7 @@ typedef struct structPet pet;
 char printMenu();
 
 int main() {
-	
+
 	return 0;
 }
 
